@@ -1,8 +1,8 @@
-# Umineko
+# Umineco
 A development community for a next-generation operating system designed with an emphasis on safety, functionality, and efficiency.
 
 ## Overview
-Umineko is a community that develops the fully open-source microkernel implementation "uKernel", its official distribution "NekOS", and the bootloader implementation "FiRSTBOOT" for booting uKernel.
+Umineco is a community that develops the fully open-source microkernel implementation "uKernel", its official distribution "NecOS", and the bootloader implementation "FiRSTBOOT" for booting uKernel.
 
 ## About uKernel
 uKernel is a uNique kernel implementation.
@@ -20,12 +20,12 @@ A microkernel executes kernel functions as several processes running in user spa
 Because of this, even if a vulnerability exists in a specific function, the problem is unlikely to spread to the entire kernel. Basically, the impact should be limited strictly to the very narrow area involving that function.
 This makes it easier to ensure safety.
 
-> As an aside, the "u" prefix in uKernel, uLimit, and other terms comes from "U"mineko. It is also a play on the word micro (μ) kernel.
+> As an aside, the "u" prefix in uKernel, uLimit, and other terms comes from "U"mineco. It is also a play on the word micro (μ) kernel.
 > You can pronounce this prefix as either "uu" or "micro", but since uKernel and microkernel would be pronounced the same way and cause confusion, it is generally recommended to pronounce it as "uu".
-> Additionally, uKernel distributions are also referred to as Umineko distributions.
+> Additionally, uKernel distributions are also referred to as Umineco distributions.
 
-## About NekOS
-NekOS is an operating system based on uKernel.
+## About NecOS
+NecOS is an operating system based on uKernel.
 
 It maximizes the characteristics of uKernel to deliver a practical and comfortable environment.
 
