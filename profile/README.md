@@ -22,7 +22,7 @@ However, you can use altcall to run Windows faster and more comfortably (than wi
 Additionally, developers can use ukmod[^1] for handling processes such as HTTP, TLS, and geolocation, allowing them to use advanced protocols and features without additional libraries like OpenSSL.
 
 > As an aside, the prefix "u" in terms like uKernel and uLimit derives from "Umineco". It is also a pun on the word micro (μ) kernel.
-> The pronunciation of this prefix can be either "you" or "micro", but since uKernel and microkernel would be pronounced the same and cause confusion, it is usually recommended to be pronounced as "you". (It is pronounced "you", not "oo")
+> The pronunciation of this prefix can be either "you" or "micro", but since uKernel and microkernel would be pronounced the same and cause confusion, it is usually recommended to be pronounced as "you". (It is pronounced "you", not "uu")
 > Note that uKernel distributions are also referred to as Umineco distributions.
 
 [^1]: A ukmod (userland kernel module) is a kernel module executed in user space. The bare uKernel contains only the most basic functions such as loading ukmods, a syscall router, and functions to parse and execute ELF binaries, and is designed so that functions such as USB, PCI-E, and TCP/IP are all added via ukmods. Drivers are also distributed as ukmods, functioning by registering themselves with an abstract driver[^2].
